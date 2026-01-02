@@ -1,0 +1,24 @@
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+  color: white;
+  padding: 3px 40px;
+}
+.nav-logo{
+    color: white;
+}
+.nav-list{
+ list-style: none;
+ display: flex;  
+ gap: 25px; 
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: #5609e5;
+}

@@ -1,11 +1,11 @@
 import Header from "../component/Header";
 
-function HomePage(){
+const AboutPage=()=>{
     return (
         <>
             <Header />
-            <h1>Home Page</h1>
+            <h1>About Page</h1>
         </>
     )
 }
-export default HomePage;
+export default AboutPage;
